@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "crafting:009mm_mag"
+        }
+      }
+    },
+    "rewards": {
+      "function": "crafting:recipe/give/009mm_mag"
+    }
+  }
+  

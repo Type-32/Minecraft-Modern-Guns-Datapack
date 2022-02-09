@@ -1,0 +1,7 @@
+{
+    "values":[
+        "vng:load",
+        "crafting:load",
+        "cw_hp_control:init"
+    ]
+}

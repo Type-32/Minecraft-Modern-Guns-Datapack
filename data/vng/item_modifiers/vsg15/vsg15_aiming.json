@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.vsg15\",\"italic\":false}'},AmmoXMX:40,CustomModelData:202221,Tags:[\"vsg15\",\"vngGun\"]}"
+  }
+]

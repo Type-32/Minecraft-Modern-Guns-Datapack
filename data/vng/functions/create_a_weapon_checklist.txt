@@ -1,0 +1,11 @@
+1. Create a {<weapon name>.ammo}, {<weapon name>.reload}, {<weapon name>.fm} at the vng:load function file
+2. Copy&Paste one of the weapon use command lines from the vng:use function and modify the copied command functions to use the new weapon's scoreboard/function.
+3. Create a Reload File(<Weapon Name>_reload.mcfunction) under the "reload" directory folder
+4. Add in your weapon's function commands in vng:reload/reload_func/tagging, vng:reload/reload_func/reloadsec, vng:reload/reload_group, vng:reload/firemode_switch_auto, vng:reload/firemode_switch_single, and vng:reload/reload_func/reset_reload_delay function files.
+5. Add in your weapon's function file at the "hud" directory folder and adjust the right amount of ammo applied with the max ammo for the gun.
+6. Create a new raycast function inside the "rays" directory folder and modify the function to apply it to your weapon
+7. Add in your weapon's damage function file inside the "damage" directory folder and the "damage/player" directory folder, and then apply it for your weapon
+8. Add your weapon's functions into the auto_reload function file inside the "command" and the auto_reload_action function file inside the "command/func" directory folder
+9. Create a new <weapon name>_act function file at the "action" directory folder
+10. Create a new model core for your weapon in order for the weapon model to work properly.
+11. Create a function command line at vng:aiming to let the datapack calculate and load your weapon model.

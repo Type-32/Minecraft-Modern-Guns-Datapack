@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.type2a\",\"italic\":false}'},AmmoXMX:50,CustomModelData:202220,Tags:[\"type2a\",\"vngGun\"]}"
+  }
+]

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "crafting:556mm_mag"
+        }
+      }
+    },
+    "rewards": {
+      "function": "crafting:recipe/give/556mm_mag"
+    }
+  }
+  

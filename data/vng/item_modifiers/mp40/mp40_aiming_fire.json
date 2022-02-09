@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.mp40\",\"italic\":false}'},AmmoXMX:30,CustomModelData:202418,Tags:[\"mp40\",\"vngGun\"]}"
+  }
+]

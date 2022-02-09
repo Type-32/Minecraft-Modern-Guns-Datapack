@@ -1,0 +1,16 @@
+{
+    "values": [
+        "minecraft:water",
+        "minecraft:grass",
+        "minecraft:tall_grass",
+        "minecraft:cave_air",
+        "minecraft:void_air",
+        "minecraft:oak_leaves",
+        "minecraft:birch_leaves",
+        "minecraft:spruce_leaves",
+        "minecraft:jungle_leaves",
+        "minecraft:acacia_leaves",
+        "minecraft:dark_oak_leaves",
+        "minecraft:air"
+    ]
+}

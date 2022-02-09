@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.ak\",\"italic\":false}'},AmmoXMX:30,CustomModelData:202203,Tags:[\"ak\",\"vngGun\"]}"
+  }
+]

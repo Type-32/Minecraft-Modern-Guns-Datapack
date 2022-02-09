@@ -1,0 +1,8 @@
+title @s[tag=!Hardline,scores={762.fullMag=1..,m14.ammo=1..}] actionbar ["",{"score":{"name": "@s","objective": "m14.ammo"},"color": "dark_aqua","extra":[{"translate":"vng.translate.ammo.rounds"}]},{"text":" | "},{"score":{"name": "@s","objective": "762.fullMag"},"color": "gray","extra":[{"translate": "vng.translate.ammo.762.mags_left"}]}]
+title @s[tag=Hardline,scores={762.fullMag=1..,m14.ammo=1..}] actionbar ["",{"score":{"name": "@s","objective": "m14_hdl.ammo"},"color": "dark_aqua","extra":[{"translate":"vng.translate.ammo.rounds"}]},{"text":" | "},{"score":{"name": "@s","objective": "762.fullMag"},"color": "gray","extra":[{"translate": "vng.translate.ammo.762.mags_left"}]}]
+
+title @s[tag=!Hardline,scores={762.fullMag=0,m14.ammo=1..}] actionbar ["",{"score":{"name": "@s","objective": "m14.ammo"},"color": "dark_aqua","extra":[{"translate":"vng.translate.ammo.rounds"}]},{"text":" | "},{"color": "red","translate": "vng.translate.ammo.no_762mag"}]
+title @s[tag=Hardline,scores={762.fullMag=0,m14.ammo=1..}] actionbar ["",{"score":{"name": "@s","objective": "m14_hdl.ammo"},"color": "dark_aqua","extra":[{"translate":"vng.translate.ammo.rounds"}]},{"text":" | "},{"color": "red","translate": "vng.translate.ammo.no_762mag"}]
+
+title @s[scores={m14.ammo=0}] actionbar ["",{"translate":"vng.reload.message","color": "yellow"},{"text":" | ","color":"dark_gray"},{"translate":"vng.mag.need.762mm_mag","color": "gold"}]
+#,m14.ammo=1..

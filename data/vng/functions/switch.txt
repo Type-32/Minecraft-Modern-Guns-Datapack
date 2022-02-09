@@ -1,0 +1,12 @@
+function vng:reload/reload_func/tagging
+function vng:reload/reload_group
+function vng:detect
+function vng:aiming
+function vng:criteria
+function vng:advancement_unlock
+function vng:use
+function vng:hud
+function vng:action/effects/aiming_sfx
+function vng:recipe
+function vng:attachments
+function vng:command/loop

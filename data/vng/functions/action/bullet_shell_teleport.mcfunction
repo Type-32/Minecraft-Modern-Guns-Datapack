@@ -1,0 +1,1 @@
+execute as @a[tag=holdingGun,scores={usedCarrotPol=1..}] at @s run tp @e[type=item,tag=bullet_shell,distance=..2,sort=nearest,limit=1,nbt={OnGround:0b}] @e[type=item,tag=blank,sort=nearest,distance=..2,limit=1,nbt={OnGround:0b}]

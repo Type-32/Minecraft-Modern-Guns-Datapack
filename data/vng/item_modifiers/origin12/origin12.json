@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.origin12\",\"italic\":false}'},AmmoXMX:12,CustomModelData:202105,Tags:[\"origin12\",\"vngGun\"]}"
+  }
+]

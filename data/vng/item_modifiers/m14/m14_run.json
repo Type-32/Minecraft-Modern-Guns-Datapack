@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.m14\",\"italic\":false}'},AmmoXMX:10,CustomModelData:202309,Tags:[\"m14\",\"haveOptic\",\"vngGun\"]}"
+  }
+]

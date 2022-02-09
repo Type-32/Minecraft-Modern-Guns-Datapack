@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "vng.adv.menu_title",
+            "color": "green"
+        },
+        "description": {
+            "translate": "vng.adv.menu_title.desc"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:202110}"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

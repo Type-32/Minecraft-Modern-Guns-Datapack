@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.cbs5\",\"italic\":false}'},AmmoXMX:6,CustomModelData:202411,Tags:[\"cbs5\",\"haveSnipeOptic\",\"vngGun\"]}"
+  }
+]

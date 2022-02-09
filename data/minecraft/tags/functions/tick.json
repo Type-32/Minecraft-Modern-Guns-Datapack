@@ -1,0 +1,7 @@
+{
+    "values":[
+        "vng:tick",
+        "crafting:tick",
+        "cw_hp_control:main"
+    ]
+}

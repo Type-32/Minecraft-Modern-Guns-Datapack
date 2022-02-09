@@ -1,0 +1,8 @@
+title @s[scores={mp5t.fm=0,009.fullMag=1..,mp5t.ammo=1..}] actionbar ["",{"score":{"name": "@s","objective": "mp5t.ammo"},"color": "dark_aqua","extra":[{"translate":"vng.translate.ammo.rounds"}]},{"text":" | "},{"score":{"name": "@s","objective": "009.fullMag"},"color": "gray","extra":[{"translate": "vng.translate.ammo.009.mags_left"}]},{"text":" | "},{"translate":"vng.translate.fire_mode.single_fire","color":"green"}]
+title @s[scores={mp5t.fm=1,009.fullMag=1..,mp5t.ammo=1..}] actionbar ["",{"score":{"name": "@s","objective": "mp5t.ammo"},"color": "dark_aqua","extra":[{"translate":"vng.translate.ammo.rounds"}]},{"text":" | "},{"score":{"name": "@s","objective": "009.fullMag"},"color": "gray","extra":[{"translate": "vng.translate.ammo.009.mags_left"}]},{"text":" | "},{"translate":"vng.translate.fire_mode.automatic","color":"gold"}]
+
+title @s[scores={mp5t.fm=0,009.fullMag=0,mp5t.ammo=1..}] actionbar ["",{"score":{"name": "@s","objective": "mp5t.ammo"},"color": "dark_aqua","extra":[{"translate":"vng.translate.ammo.rounds"}]},{"text":" | "},{"color": "red","translate": "vng.translate.ammo.no_009mag"},{"text":" | "},{"translate":"vng.translate.fire_mode.single_fire","color":"green"}]
+title @s[scores={mp5t.fm=1,009.fullMag=0,mp5t.ammo=1..}] actionbar ["",{"score":{"name": "@s","objective": "mp5t.ammo"},"color": "dark_aqua","extra":[{"translate":"vng.translate.ammo.rounds"}]},{"text":" | "},{"color": "red","translate": "vng.translate.ammo.no_009mag"},{"text":" | "},{"translate":"vng.translate.fire_mode.automatic","color":"gold"}]
+
+title @s[scores={mp5t.ammo=0}] actionbar ["",{"translate":"vng.reload.message","color": "yellow"},{"text":" | ","color":"dark_gray"},{"translate":"vng.mag.need.009mm_mag","color": "gold"}]
+#,mp5t.ammo=1..

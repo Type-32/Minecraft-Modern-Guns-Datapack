@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "vng.adv.5000_kill",
+            "color": "red"
+        },
+        "description": {
+            "translate": "vng.adv.5000_kill.desc"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:202105}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "n": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vng:kills"
+}

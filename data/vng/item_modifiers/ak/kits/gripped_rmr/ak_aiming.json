@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.ak.ctm\",\"italic\":false}'},AmmoXMX:30,CustomModelData:222903,Tags:[\"ak\",\"haveGrip\",\"scopedVariant\",\"opticRMR\",\"withGripRMRKit\",\"vngGun\"]}"
+  }
+]

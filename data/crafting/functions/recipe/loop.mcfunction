@@ -1,0 +1,22 @@
+function crafting:recipe/gun/cbr27
+function crafting:recipe/gun/mp7
+
+function crafting:recipe/materials/copper_plate
+function crafting:recipe/materials/iron_plate
+function crafting:recipe/materials/steel_grip
+function crafting:recipe/materials/steel_hull
+function crafting:recipe/materials/steel_stock
+function crafting:recipe/materials/steel_barrel
+function crafting:recipe/materials/steel_uppercover
+function crafting:recipe/materials/iron_pole
+function crafting:recipe/materials/hatch_piece
+function crafting:recipe/materials/stock_connector
+function crafting:recipe/materials/gun_barrel
+function crafting:recipe/materials/copper_cord
+function crafting:recipe/materials/optic_fiber_lens
+function crafting:recipe/materials/optic_chip
+function crafting:recipe/materials/optic_battery
+function crafting:recipe/materials/optic_led
+function crafting:recipe/materials/rmr_sight
+function crafting:recipe/materials/holosight
+function crafting:recipe/materials/ranger_foregrip

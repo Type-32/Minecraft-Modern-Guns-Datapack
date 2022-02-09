@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "vng.adv.achieve.sig75t",
+            "color": "green"
+        },
+        "description": {
+            "translate": "vng.adv.achieve.sig75t.desc"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:202116}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "n": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vng:recipe"
+}

@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.mp5t\",\"italic\":false}'},AmmoXMX:40,CustomModelData:202217,Tags:[\"mp5t\",\"haveTacLaser\",\"vngGun\"]}"
+  }
+]

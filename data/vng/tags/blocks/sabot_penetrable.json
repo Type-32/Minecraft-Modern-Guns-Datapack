@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:cave_air",
+        "minecraft:void_air",
+        "minecraft:grass",
+        "minecraft:tall_grass",
+        "minecraft:bedrock",
+        "minecraft:air"
+    ]
+}

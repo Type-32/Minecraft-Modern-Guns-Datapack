@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.cbr27_kilowatt\",\"italic\":false}'},AmmoXMX:45,CustomModelData:203302,Tags:[\"cbr27\",\"kilowatt\",\"vngGun\"]}"
+  }
+]

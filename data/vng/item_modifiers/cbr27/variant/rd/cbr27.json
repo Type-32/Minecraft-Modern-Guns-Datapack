@@ -1,0 +1,7 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.cbr27.ctm\",\"italic\":false}'},AmmoXMX:30,CustomModelData:402101,Tags:[\"cbr27\",\"haveOptic\",\"haveRedDot\",\"vngGun\"]}"
+    }
+]
+  

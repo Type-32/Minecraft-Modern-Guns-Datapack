@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "crafting:bullet_box"
+        }
+      }
+    },
+    "rewards": {
+      "function": "crafting:recipe/give/bullet_box"
+    }
+  }
+  

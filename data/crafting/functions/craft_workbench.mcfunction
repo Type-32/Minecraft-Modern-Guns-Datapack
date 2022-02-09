@@ -1,0 +1,2 @@
+execute as @e[tag=workbench_material_1] at @s if entity @e[tag=workbench_material_2,distance=..1,nbt={OnGround:1b}] if entity @e[tag=workbench_material_3,distance=..1,nbt={OnGround:1b}] align xyz run function crafting:setblock_workbench
+#hahahaha

@@ -1,0 +1,7 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:282001,Tags:[\"hand\"]}"
+    }
+  ]
+  

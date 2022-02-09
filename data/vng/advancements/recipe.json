@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "translate": "vng.adv.recipes",
+            "color": "gold"
+        },
+        "description": {
+            "translate": ""
+        },
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "n": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "vng:root"
+}

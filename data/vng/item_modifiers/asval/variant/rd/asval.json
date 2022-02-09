@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.asval.ctm\",\"italic\":false}'},AmmoXMX:20,CustomModelData:402112,Tags:[\"asval\",\"haveOptic\",\"haveRedDot\",\"vngGun\"]}"
+  }
+]

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "crafting:witheren_vest"
+        }
+      }
+    },
+    "rewards": {
+      "function": "crafting:recipe/give/witheren_vest"
+    }
+  }
+  

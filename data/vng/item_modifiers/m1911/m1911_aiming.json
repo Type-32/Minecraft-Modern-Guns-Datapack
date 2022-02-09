@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.m1911\",\"italic\":false}'},AmmoXMX:8,CustomModelData:202210,Tags:[\"m1911\",\"vngGun\"]}"
+  }
+]

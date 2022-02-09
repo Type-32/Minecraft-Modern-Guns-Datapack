@@ -1,0 +1,22 @@
+{
+    "values":[
+        "minecraft:player",
+        "minecraft:area_effect_cloud",
+        "minecraft:arrow",
+        "minecraft:minecart",
+        "minecraft:tnt_minecart",
+        "minecraft:tnt",
+        "minecraft:leash_knot",
+        "minecraft:spectral_arrow",
+        "minecraft:furnace_minecart",
+        "minecraft:lightning_bolt",
+        "minecraft:item",
+        "minecraft:item_frame",
+        "minecraft:glow_item_frame",
+        "minecraft:firework_rocket",
+        "minecraft:ender_dragon",
+        "minecraft:dragon_fireball",
+        "minecraft:fireball",
+        "minecraft:chest_minecart"
+    ]
+}

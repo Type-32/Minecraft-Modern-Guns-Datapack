@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.grau556\",\"italic\":false}'},AmmoXMX:30,CustomModelData:202406,Tags:[\"grau556\",\"vngGun\"]}"
+  }
+]

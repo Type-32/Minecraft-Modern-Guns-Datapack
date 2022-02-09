@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "translate": "vng.adv.achieve.cz117"
+        },
+        "description": {
+            "translate": "vng.adv.achieve.cz117.desc"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:202108}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "n": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vng:recipe"
+}

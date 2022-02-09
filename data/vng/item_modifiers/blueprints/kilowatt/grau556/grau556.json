@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.grau556_kilowatt\",\"italic\":false}'},AmmoXMX:60,CustomModelData:203103,Tags:[\"grau556\",\"kilowatt\",\"vngGun\"]}"
+  }
+]

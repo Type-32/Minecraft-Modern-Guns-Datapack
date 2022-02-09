@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.mp7.ctm\",\"italic\":false}'},AmmoXMX:40,CustomModelData:233904,Tags:[\"mp7\",\"haveGrip\",\"scopedVariant\",\"opticHolo\",\"withGripHoloKit\",\"vngGun\"]}"
+  }
+]

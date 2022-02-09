@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.cz117\",\"italic\":false}'},AmmoXMX:35,CustomModelData:202308,Tags:[\"cz117\",\"haveOptic\",\"vngGun\"]}"
+  }
+]

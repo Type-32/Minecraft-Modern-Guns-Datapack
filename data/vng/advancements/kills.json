@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "translate": "vng.adv.kills",
+            "color": "gold"
+        },
+        "description": {
+            "translate": ""
+        },
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "n": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "vng:root"
+}

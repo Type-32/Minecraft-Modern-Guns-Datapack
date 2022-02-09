@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"translate\":\"vng.gun_item.m14_hardline\",\"italic\":false}'},AmmoXMX:16,CustomModelData:203304,Tags:[\"m14\",\"hardline\",\"haveSnipeOptic\",\"vngGun\"]}"
+  }
+]
