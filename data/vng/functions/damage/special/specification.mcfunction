@@ -1,0 +1,1 @@
+execute if entity @s[type=end_crystal] run function vng:damage/special/end_crystal

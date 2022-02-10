@@ -4,6 +4,8 @@ execute as @e[dx=0,type=!#vng:unharmable_entities] positioned ~-0.5 ~-0.5 ~-0.5 
 execute as @e[dx=0,type=minecart,tag=rider] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] positioned ~0.5 ~0.5 ~0.5 run function vng:damage/plane_mg_dmg
 execute as @e[dx=0,type=player,gamemode=!creative,gamemode=!spectator,tag=!firing] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] positioned ~0.5 ~0.5 ~0.5 run function vng:damage/player/plane_mg_dmg
 #tag @s remove firing
+execute as @e[dx=0,type=#vng:special_entities] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] positioned ~0.5 ~0.5 ~0.5 run function vng:damage/specification
+#insert line of code here
 execute positioned ^ ^ ^1 unless block ~ ~ ~ #vng:penetrable run function vng:func/ray_hit
 execute positioned ^ ^ ^1 unless block ~ ~ ~ #vng:penetrable run particle minecraft:smoke ~ ~ ~ 0 1.5 0 1.8 0 force
 execute positioned ^ ^ ^1 if block ~ ~ ~ #vng:chance_penetrable if predicate vng:quarter_chance run function vng:rays/plane_mg
