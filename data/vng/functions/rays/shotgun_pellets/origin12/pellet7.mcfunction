@@ -1,5 +1,5 @@
 particle dust 1 1 1 0.2 ~ ~ ~ 0 0 0 3 1 force
-execute as @e[dx=0,type=#vng:special_entities] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] positioned ~0.5 ~0.5 ~0.5 run function vng:damage/specification
+execute as @e[dx=0,type=#vng:special_entities] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] positioned ~0.5 ~0.5 ~0.5 run function vng:damage/special/specification
 execute as @e[dx=0,type=!#vng:unharmable_entities] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] positioned ~0.5 ~0.5 ~0.5 run function vng:damage/origin12_dmg
 execute as @e[dx=0,type=player,gamemode=!creative,gamemode=!spectator,tag=!firing] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] positioned ~0.5 ~0.5 ~0.5 run effect give @s instant_damage 1 1 true
 execute positioned ^ ^.05 ^1 unless block ~ ~ ~ #vng:penetrable run particle minecraft:crit ~ ~ ~ .01 .01 .01 1.8 5 force
