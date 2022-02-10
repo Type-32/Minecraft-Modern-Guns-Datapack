@@ -5,6 +5,10 @@
         "minecraft:grass",
         "minecraft:tall_grass",
         "minecraft:bedrock",
-        "minecraft:air"
+        "#vng:airs",
+        "minecraft:snow",
+        "minecraft:snow_block",
+        "minecraft:powder_snow",
+        "minecraft:iron_bars"
     ]
 }

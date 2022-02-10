@@ -32,6 +32,10 @@
         "minecraft:magenta_wool",
         "minecraft:light_blue_wool",
         "minecraft:light_gray_wool",
-        "minecraft:air"
+        "#vng:airs",
+        "minecraft:snow",
+        "minecraft:snow_block",
+        "minecraft:powder_snow",
+        "minecraft:iron_bars"
     ]
 }
