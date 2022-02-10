@@ -5,7 +5,7 @@ function vng:advancement_unlock
 function vng:reload/reload_func/reload_group
 #function vng:reload/reload_func/loop
 function vng:reload/reload_func/tagging
-function vng:use
+execute if score datapackItemFunc gamerule matches ..0 run function vng:use
 function vng:det_tags/generic
 function vng:aiming
 function vng:hud
