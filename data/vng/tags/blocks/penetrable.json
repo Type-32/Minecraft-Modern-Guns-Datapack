@@ -18,6 +18,9 @@
         "#minecraft:wool",
         "minecraft:vine",
         "minecraft:twisting_vines",
-        "minecraft:weeping_vines"
+        "minecraft:weeping_vines",
+        "minecraft:snow",
+        "minecraft:snow_block",
+        "minecraft:powder_snow"
     ]
 }
