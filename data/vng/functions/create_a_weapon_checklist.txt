@@ -8,4 +8,4 @@
 8. Add your weapon's functions into the auto_reload function file inside the "command" and the auto_reload_action function file inside the "command/func" directory folder
 9. Create a new <weapon name>_act function file at the "action" directory folder
 10. Create a new model core for your weapon in order for the weapon model to work properly.
-11. Create a function command line at vng:aiming to let the datapack calculate and load your weapon model.
+11. Create a function command line at vng:model_enf to let the datapack calculate and load your weapon model.

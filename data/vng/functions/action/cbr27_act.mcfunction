@@ -2,9 +2,6 @@ execute if score @s aimSec matches 3.. run function vng:action/effects/ads_eff
 #function vng:action/effects/ads_eff
 scoreboard players set .dist shoot_dist 0
 
-#execute at @s positioned ~ ~1 ~ if block ~ ~ ~ air run setblock ~ ~ ~ light
-#execute as @a[scores={fireDelay=3..}] at @s if block ~ ~1 ~ light run setblock ~ ~1 ~ air
-
 #
 tag @s add firing
 tag @s add firingMarkerDetect

@@ -7,7 +7,7 @@ function vng:reload/reload_func/reload_group
 function vng:reload/reload_func/tagging
 execute if score datapackItemFunc gamerule matches ..0 run function vng:use
 function vng:det_tags/generic
-function vng:aiming
+function vng:model_enf
 function vng:hud
 function vng:equip_attachment
 function vng:action/effects/aiming_sfx
