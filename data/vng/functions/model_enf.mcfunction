@@ -1,6 +1,6 @@
-execute as @a[tag=holdingGun,tag=!scopedVariant,predicate=vng:is_sneaking] run attribute @s generic.attack_speed base set 0
-#execute as @a[tag=holdingGun,tag=!scopedVariant] run attribute @s generic.attack_speed base set 0
-execute as @a[tag=holdingGun,predicate=!vng:is_sneaking] run attribute @s generic.attack_speed base set 4
+execute as @a[tag=holdingGun,tag=!scopedVariant,predicate=vng:is_sneaking,predicate=!vng:is_sprinting] run attribute @s generic.attack_speed base set 0
+execute as @a[tag=holdingGun,tag=!scopedVariant,predicate=!vng:is_sneaking,predicate=!vng:is_sprinting] run attribute @s generic.attack_speed base set 0
+execute as @a[tag=holdingGun,predicate=!vng:is_sneaking,predicate=vng:is_sprinting] run attribute @s generic.attack_speed base set 4
 
 execute as @a[tag=holdingMK7] at @s run function vng:model_core/mk7/core
 
@@ -72,16 +72,6 @@ item replace entity @a[tag=holdingGun,predicate=!vng:is_sneaking,predicate=!vng:
 #item replace entity @a[tag=holdingGun,predicate=!vng:is_sprinting,predicate=!vng:is_sneaking,tag=!HandShown,scores={expFt=1..}] weapon.offhand with clock{Tags:["hand"]}
 #execute as @a[predicate=vng:is_sneaking] at @s anchored eyes positioned ^ ^ ^2 run function vng:rays/red_dot_laser
 
-execute as @a[tag=holdingGun,predicate=vng:is_sneaking,tag=!haveOptic,tag=!haveSnipeOptic] run effect give @s slowness 1 0 true
-execute as @a[tag=holdingGun,predicate=vng:is_sneaking,tag=haveOptic] run effect give @s slowness 1 3 true
-execute as @a[tag=holdingGun,predicate=vng:is_sneaking,tag=haveSnipeOptic] run attribute @s generic.movement_speed base set -0.1
-execute as @a[tag=holdingGun,predicate=vng:is_sneaking] run tag @s remove aimCheck
-execute as @a[tag=holdingGun,predicate=!vng:is_sneaking,predicate=!vng:is_sprinting,tag=!aimCheck] run effect clear @s slowness
-execute as @a[tag=holdingGun,predicate=!vng:is_sneaking,predicate=!vng:is_sprinting,tag=!aimCheck] run attribute @s generic.movement_speed base set 0.1
-execute as @a[tag=holdingGun,predicate=!vng:is_sneaking,predicate=!vng:is_sprinting,tag=!aimCheck] run tag @s add aimCheck
-
+execute as @a[tag=holdingGun,predicate=vng:is_sneaking] run function vng:clot_func/scope_zooming_true
+execute as @a[tag=holdingGun,predicate=!vng:is_sneaking,predicate=!vng:is_sprinting,tag=!aimCheck] run function vng:clot_func/scope_zooming_false
 #execute as @a[predicate=vng:is_sneaking,tag=haveSnipeOptic] run particle entity_effect ~ ~ ~ 0 1 0.5 1 0 force @s
-
-#execute as @a[tag=holdingGun,predicate=vng:is_sneaking,tag=opticHolo] run effect give @s slowness 1 2 true
-#execute as @a[tag=holdingGun,predicate=vng:is_sneaking,tag=opticRMR] run effect give @s slowness 1 2 true
-#execute as @a[tag=holdingGun,predicate=vng:is_sneaking,tag=opticACOG] run effect give @s slowness 1 5 true
