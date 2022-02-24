@@ -3,6 +3,7 @@
 tellraw @a ["",{"text": "Modern Guns Datapack> ","color": "gold"},{"text":"Modern Guns Datapack by Type-32 Loaded!","color": "aqua"}]
 scoreboard objectives add reloadSec dummy
 scoreboard objectives add aimSec dummy
+scoreboard objectives add fireSec dummy
 scoreboard objectives add aimTickAnim dummy
 scoreboard objectives add deaimTickAnim dummy
 

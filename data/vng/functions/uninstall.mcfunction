@@ -4,6 +4,7 @@ tellraw @a ["",{"text": "Modern Guns Datapack> ","color": "gold"},{"text":"Datap
 tellraw @a ["",{"text": "Modern Guns Datapack> ","color": "gold"},{"text":"Modern Guns Datapack by Type-32 Loaded!","color": "aqua"}]
 scoreboard objectives remove reloadSec
 scoreboard objectives remove aimSec
+scoreboard objectives remove fireSec
 
 scoreboard objectives remove ak.ammo
 scoreboard objectives remove mp40.ammo

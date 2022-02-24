@@ -1,5 +1,6 @@
 scoreboard players add @a reloadSec 0
 scoreboard players add @a[tag=holdingGun] aimSec 1
+scoreboard players add @a[tag=holdingGun] fireSec 1
 scoreboard players add @a ak.reload 0
 scoreboard players add @a mp40.reload 0
 scoreboard players add @a stg44.reload 0
