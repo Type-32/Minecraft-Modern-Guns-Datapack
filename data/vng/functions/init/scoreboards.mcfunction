@@ -100,6 +100,9 @@ scoreboard players add @a 12mm.guage 0
 scoreboard players add @a hands_in_inv 0
 scoreboard players add @a shoot_dist 0
 
+scoreboard players add @a aimTickAnim 0
+scoreboard players add @a deaimTickAnim 0
+
 scoreboard players add noRecoil gamerule 0
 scoreboard players add infiniteAmmo gamerule 0
 

@@ -1,7 +1,15 @@
+#Attack Speed Modifier(Aiming, Idle)
 execute as @a[tag=holdingGun,tag=!scopedVariant,predicate=vng:is_sneaking,predicate=!vng:is_sprinting] run attribute @s generic.attack_speed base set 0
 execute as @a[tag=holdingGun,tag=!scopedVariant,predicate=!vng:is_sneaking,predicate=!vng:is_sprinting] run attribute @s generic.attack_speed base set 0
 execute as @a[tag=holdingGun,predicate=!vng:is_sneaking,predicate=vng:is_sprinting] run attribute @s generic.attack_speed base set 4
 
+#Animation
+scoreboard players add @a[predicate=vng:is_sneaking,scores={aimTickAnim=..5}] aimTickAnim 1
+scoreboard players remove @a[predicate=!vng:is_sneaking,scores={aimTickAnim=1..}] aimTickAnim 1
+scoreboard players add @a[predicate=!vng:is_sneaking,scores={deaimTickAnim=..5}] deaimTickAnim 1
+scoreboard players remove @a[predicate=vng:is_sneaking,scores={deaimTickAnim=1..}] deaimTickAnim 1
+
+#Model Cores Execution
 execute as @a[tag=holdingMK7] at @s run function vng:model_core/mk7/core
 
 execute as @a[tag=holdingCBR27,tag=!Kilowatt] at @s run function vng:model_core/cbr27/core
