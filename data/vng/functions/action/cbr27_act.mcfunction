@@ -1,5 +1,5 @@
-execute if score @s aimSec matches 3.. run function vng:action/effects/ads_eff
-execute if score @s fireSec matches 3.. run function vng:action/effects/idle_eff
+execute if score @s aimSec matches 1.. run function vng:action/effects/ads_eff
+execute if score @s fireSec matches 1.. run function vng:action/effects/idle_eff
 #function vng:action/effects/ads_eff
 scoreboard players set .dist shoot_dist 0
 
@@ -20,9 +20,7 @@ playsound vng:cbr27.fire voice @s[distance=..38,tag=!haveSupressor]
 playsound vng:cbr27.sup_fire voice @s[distance=..16,tag=haveSupressor]
 execute as @s[tag=Kilowatt] run playsound vng:cbr27.kilowatt.fire voice @s[distance=..13] ~ ~ ~ 10
 
-execute if score noRecoil gamerule matches ..0 run tp @s[tag=!Kilowatt,tag=!haveGrip] ~ ~ ~ ~ ~-3.5
-execute if score noRecoil gamerule matches ..0 run tp @s[tag=!Kilowatt,tag=haveGrip] ~ ~ ~ ~ ~-3
-execute if score noRecoil gamerule matches ..0 run tp @s[tag=Kilowatt] ~ ~ ~ ~ ~-3.8
+execute if score noRecoil gamerule matches ..0 run function vng:action/recoil/rec_cbr27
 
 execute if score infiniteAmmo gamerule matches ..0 run scoreboard players remove @s[tag=!Kilowatt,gamemode=!creative] cbr27.ammo 1
 execute if score infiniteAmmo gamerule matches ..0 run scoreboard players remove @s[tag=Kilowatt,gamemode=!creative] cbr27_kilo.ammo 1

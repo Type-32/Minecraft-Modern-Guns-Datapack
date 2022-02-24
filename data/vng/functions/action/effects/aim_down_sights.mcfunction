@@ -1,11 +1,9 @@
-item modify entity @s[tag=holdingGrau556,tag=!Kilowatt] weapon.mainhand vng:grau556/grau556_aiming_fire
-item modify entity @s[tag=holdingGrau556,tag=Kilowatt] weapon.mainhand vng:blueprints/kilowatt/grau556/grau556_aiming_fire
+item modify entity @s[tag=holdingGrau556] weapon.mainhand vng:grau556/grau556_aiming_fire
 
-item modify entity @s[tag=holdingCBR27,tag=!Kilowatt,tag=!haveRedDot,tag=!haveHolo,tag=!haveGrip,tag=!haveSupressor] weapon.mainhand vng:cbr27/cbr27_aiming_fire
-item modify entity @s[tag=holdingCBR27,tag=Kilowatt,tag=!haveRedDot,tag=!haveHolo,tag=!haveGrip,tag=!haveSupressor] weapon.mainhand vng:blueprints/kilowatt/cbr27/cbr27_aiming_fire
-execute if entity @s[tag=holdingCBR27,tag=!Kilowatt,tag=haveRedDot,tag=!haveHolo] run function vng:action/effects/ads/cbr27/red_dot
-execute if entity @s[tag=holdingCBR27,tag=!Kilowatt,tag=!haveRedDot,tag=haveHolo] run function vng:action/effects/ads/cbr27/holo
-execute if entity @s[tag=holdingCBR27,tag=!Kilowatt,tag=!haveRedDot,tag=!haveHolo] run function vng:action/effects/ads/cbr27/atch
+item modify entity @s[tag=holdingCBR27,tag=!haveRedDot,tag=!haveHolo,tag=!haveGrip,tag=!haveSupressor] weapon.mainhand vng:cbr27/cbr27_aiming_fire
+execute if entity @s[tag=holdingCBR27,tag=haveRedDot,tag=!haveHolo] run function vng:action/effects/ads/cbr27/red_dot
+execute if entity @s[tag=holdingCBR27,tag=!haveRedDot,tag=haveHolo] run function vng:action/effects/ads/cbr27/holo
+execute if entity @s[tag=holdingCBR27,tag=!haveRedDot,tag=!haveHolo] run function vng:action/effects/ads/cbr27/atch
 
 item modify entity @s[tag=holdingCBR27A1] weapon.mainhand vng:cbr27a1/cbr27a1_aiming_fire
 
