@@ -119,7 +119,7 @@ scoreboard objectives add che.killed_mob dummy
 scoreboard objectives add vng.pid dummy "Player ID"
 
 title @a times 0 11 0
-function vng:reload/reload_func/reloadsec
+schedule function vng:reload/reload_func/reloadsec 1s
 function vng:action/effects/white_hit
 function vng:action/effects/red_hit
 function vng:command/init
