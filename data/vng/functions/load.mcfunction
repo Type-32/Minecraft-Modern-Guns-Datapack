@@ -119,10 +119,11 @@ scoreboard objectives add che.killed_mob dummy
 scoreboard objectives add vng.pid dummy "Player ID"
 
 title @a times 0 11 0
-schedule function vng:reload/reload_func/reloadsec 1s
+function vng:reload/reload_func/reloadsec
 function vng:action/effects/white_hit
 function vng:action/effects/red_hit
 function vng:command/init
+function vng:recipe
 
 tellraw @a[scores={notif=0}] ["",{"text": "Modern Guns Datapack> ","color": "gold"},{"text":"The Modern Guns Datapack has been successfully loaded!"}]
 tellraw @a[scores={notif=0}] ["",{"text": "Modern Guns Datapack> ","color": "gold"},{"text":"Modern Guns Datapack & Modern Guns Resource Pack "},{"text": "made by Type-32","color": "blue","bold": true}]

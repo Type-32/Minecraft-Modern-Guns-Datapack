@@ -22,6 +22,3 @@ execute as @a[scores={vsg6t.reload=4..},tag=holdingVSG6T] at @s run function vng
 execute as @a[scores={vec9.reload=5..},tag=holdingVec9] at @s run function vng:hud/num/vec9
 execute as @a[scores={augpara.reload=5..},tag=holdingAUGPara] at @s run function vng:hud/num/augpara
 execute as @a[tag=holdingDriveStick] at @s run function vng:hud/car
-
-title @a[scores={plane.mode=0},tag=holdingController] actionbar ["",{"text":"Plane Current Weapon:","color": "gold"},{"text": " Heavy Machine Gun","color": "yellow"}]
-title @a[scores={plane.mode=1},tag=holdingController] actionbar ["",{"text":"Plane Current Weapon:","color": "gold"},{"text": " MG-5 Enhanced Grenadier Impact Bomb","color": "yellow"}]
