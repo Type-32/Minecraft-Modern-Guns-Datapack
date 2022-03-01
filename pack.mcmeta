@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 7,
-        "description": "Heal Datapack - provides healing when in survival"
+        "pack_format": 9,
+        "description": "Type-32's Modern Guns Datapack for Minecraft 1.18.2"
     }
 }
