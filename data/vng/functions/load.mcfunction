@@ -126,5 +126,5 @@ tellraw @a[scores={notif=0}] ["",{"text": "Modern Guns Datapack> ","color": "gol
 tellraw @a[scores={notif=0}] ["",{"text": "\nModern Guns Datapack Helper> ","color": "yellow"},{"text": "First time using this Datapack? "},{"text": "[How to use the Datapack]","color": "gold","clickEvent": {"action": "run_command","value": "/function vng:how_to_use"}},{"text":" <------------- Click here","color": "yellow"}]
 
 forceload add 0 0 0 0
-setblock 0 1 0 chest{Lock:"NonExistentLock115414"}
-setblock 0 2 0 bedrock
+setblock 0 -64 0 chest{Lock:"NonExistentLock115414"}
+setblock 0 -63 0 bedrock
