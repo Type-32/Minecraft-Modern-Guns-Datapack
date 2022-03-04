@@ -1,4 +1,4 @@
-function vng:action/effects/ads_eff
+execute if score @s aimSec matches 3.. run function vng:action/effects/ads_eff
 #function vng:action/effects/ads_eff
 scoreboard players set .dist shoot_dist 0
 
